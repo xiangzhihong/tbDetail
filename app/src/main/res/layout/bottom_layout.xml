@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/c21"
+        android:gravity="center"
+        android:text="加入购物车"
+        android:textColor="@color/c12"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/buy_btn"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/c9"
+        android:gravity="center"
+        android:text="立即购买"
+        android:textColor="@color/c12"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
